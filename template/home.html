@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+ <!-- add head that salary system -->
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Salary System</h1>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Home</h2>
+          {% if result%}
+
+          <h>Salary is = : {{result}}</h>
+          {% endif %}
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>Home page</p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <body>
+    <form action="/result" method="post">
+      
+      
+      <input type="text" name="years" placeholder="Input years">
+      <input type="submit" value="Submit">
+  
+
+  </body>
+  <!-- Make an input field with name INPUT YEARS -->
+ 
+
+
+
+
+</html>
